@@ -20,6 +20,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .nav-list { 
@@ -28,6 +29,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0p;
 }
 
 .nav-list:hover, .nav-list:focus {
@@ -153,26 +155,28 @@ ul {
 img {
     display: block;
 }
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
 
 .container {
+    display: flex;
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
  }
- header .container  {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+ .container-nav-adrress {
+    display: flex;
+    align-items: center;
  }
  .container-nav-list {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     gap: 40px;
  }
 
  .container-address {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     gap: 40px;
  }
