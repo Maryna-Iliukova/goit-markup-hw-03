@@ -139,3 +139,40 @@ a {
     color: #2e2f42;
 }
 
+h1, h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+ }
+ header .container  {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+ }
+ .container-nav-list {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 40px;
+ }
+
+ .container-address {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 40px;
+ }
