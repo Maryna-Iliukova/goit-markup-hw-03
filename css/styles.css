@@ -165,6 +165,9 @@ img {
     padding: 0 15px;
     margin: 0 auto;
  }
+ .header > .container {
+    justify-content: space-between;
+ }
  .container-nav-adrress {
     display: flex;
     align-items: center;
@@ -184,13 +187,15 @@ img {
  }
  .mainpage {
     padding: 188px 0;
+    justify-content: center;
  }
  .motto {
     max-width: 496px;
+    margin: 0 auto:
  }
  .button {
     display: block;
-    min-width: 169px;
+    max-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
@@ -234,4 +239,62 @@ img {
 .teamlist {
     width: calc((100%-3*24)/4);
     border-radius: 0 0 4px 4px;
+}
+.personal {
+    padding: 32px 0;
+}
+.personal > .title-three {
+    text-align: center;
+}
+.personal > .text {
+    text-align: center;
+}
+
+.section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.section-four > .container > .title-two {
+    margin-bottom: 72px;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfolio-card {
+    width: calc((100% - 2*24px)/3);
+}
+.name-app {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+
+.name-app > .title-three {
+    margin-bottom: 8px;
+}
+.footer {
+    padding: 100px 0;
+}
+.logo-in-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer > .container {
+    display: flex;
+    flex-direction: column;
+}
+.footer-p-text {
+    width: 264px;
+    text-wrap: wrap;
+}
+.section-four > .container, .ourteam > .container {
+    display: flex;
+    flex-direction: column;
+}
+ .main > .container {
+    display: inline-block;
+    
 }
