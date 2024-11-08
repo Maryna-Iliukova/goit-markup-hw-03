@@ -171,10 +171,6 @@ img {
     margin: 0 auto;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 156px;
-    margin-right: 156px;
-    margin-top: 24px;
-    margin-bottom: 24px;
  }
  .container-nav-adrress {
     display: flex;
