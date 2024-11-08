@@ -166,6 +166,9 @@ img {
  }
  .header > .container {
     display: flex;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
     flex-direction: row;
     justify-content: space-between;
     margin-left: 156px;
@@ -193,12 +196,10 @@ img {
  .mainpage {
     padding: 188px 0;
  }
- .mainpage > .container {
-    
- }
+ 
  .motto {
     max-width: 496px;
-    margin: 0 auto:
+    margin: 0 472px;
  }
  .button {
     display: block;
@@ -207,7 +208,8 @@ img {
     border: none;
     border-radius: 4px;
     margin-top: 48px;
-    justify-content: center;
+    margin-left: 636px;
+    margin-right: 635px;
  }
  .section-two {
     padding: 120px 0;
@@ -215,6 +217,9 @@ img {
  .opportunities-list {
     display: flex;
     gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
+
  }
  .visually-hidden {
     position: absolute;
@@ -244,6 +249,8 @@ img {
 .ourteam-list {
     display: flex;
     gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 .teamlist {
     width: calc((100%-3*24)/4);
@@ -272,6 +279,8 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 .portfolio-card {
     width: calc((100% - 2*24px)/3);
@@ -288,6 +297,7 @@ img {
 .footertext {
     max-width: 264px;
     text-wrap: wrap;
+    margin-left: 156px;
 }
 
 .footer {
@@ -296,6 +306,7 @@ img {
 .logo-in-footer {
     display: inline-block;
     margin-bottom: 16px;
+    margin-left: 156px;
 }
 
 
