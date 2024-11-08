@@ -165,8 +165,13 @@ img {
     margin: 0 auto;
  }
  .header > .container {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 156px;
+    margin-right: 156px;
+    margin-top: 24px;
+    margin-bottom: 24px;
  }
  .container-nav-adrress {
     display: flex;
@@ -188,6 +193,9 @@ img {
  .mainpage {
     padding: 188px 0;
  }
+ .mainpage > .container {
+    
+ }
  .motto {
     max-width: 496px;
     margin: 0 auto:
@@ -198,6 +206,8 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-top: 48px;
+    justify-content: center;
  }
  .section-two {
     padding: 120px 0;
